@@ -22,7 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## This function will check to see if the matrix has been inverted
+## This function will check to see if the matrix has been inverted, and solve
+## the inverted matrix.
 
 cacheSolve <- function(x, ...) {
         invert <- x$getinverse()
